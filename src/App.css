@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav {
+  background: white;
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  padding: 20px;
+}
+
+.koiImg {
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari 3-8 */
+  transform: rotate(90deg);
+}
+
+.animalImg {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 20px;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: checkbox;
+}
+
+.homePic {
+  width: 100%;
+  height: auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.columnBig {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  flex: 1;
+}
+
+.columnSmall {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.currentTemp {
+  font-size: 200%;
+}
+
+.weatherBox {
+  background-color: lightgrey;
+  border: solid 10px darkgrey;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.imgTop {
+  margin-top: 200px;
+}
+
+.textLeft {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.textLeft2 {
+  margin-bottom: 10px;
+}
+
+.textLeft2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+}
+
+.h2override {
+  font-family: 'Inconsolata', monospace !important;
+}
+
+.aowText {
+  font-family: 'Inconsolata', monospace !important;
+  font-weight: bold !important;
+}
+
+.headingContainer {
+  white-space: nowrap;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.goldRibbon {
+  width: 200px;
+  height: auto;
+  vertical-align: middle;
+  text-align: left !important;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  z-index: 100;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navLink {
+  padding: 20px;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+}
+
+.App-header {
+  background-color: #ff3300;
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
